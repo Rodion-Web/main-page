@@ -691,6 +691,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: clamp(1rem, 3vw, 2.5rem);
+  padding: 30px;
 }
 
 
@@ -741,7 +742,7 @@ a {
 
 .right-bottom button {
   outline: none;
-  width: min(250px, 100%);
+  min-width: 300px;
   height: 42px;
   background-color: transparent;
   border: solid 1px var(--color-gold);
@@ -886,10 +887,6 @@ a {
       var(--color-panel) 60.17%);
 }
 
-.slider-pro .carousel-slide.is-active .available-gradient>.description-one {
-  min-height: 165px;
-}
-
 .prev {
   position: absolute;
   inset-inline-start: clamp(1rem, 6vw, 6%);
@@ -937,14 +934,14 @@ a {
 }
 
 .description-one {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 0.5rem;
-  min-height: 150px;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 14px;
+display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0.5rem;
+    min-height: 130px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .description-one p:nth-child(1) {
